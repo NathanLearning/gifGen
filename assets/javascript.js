@@ -26,7 +26,7 @@ $( document ).ready(function() {
 
     function displayGifs() {
         var textBtn = $(this).attr("data-name")
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + textBtn + "&api_key=HYxhLRCnPTlHUI0APYTYCop4eaL3qj5D&limit=10"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + textBtn + "&api_key=HYxhLRCnPTlHUI0APYTYCop4eaL3qj5D&limit=10&rating=PG"
 
         $.ajax({
             url: queryURL,
