@@ -13,7 +13,7 @@ $( document ).ready(function() {
     
     function addBtn() {
         $("#addGif").on("click", function() {
-        var textBtn = $("#ma-input").val().trim()
+        var textBtn = $("#userInput").val().trim()
 
         if (textBtn == "") {
           return false
